@@ -8,14 +8,29 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
   <title>AdminLTE 3 | Starter</title>
+=======
+  <title>Dashboard</title>
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
+<<<<<<< HEAD
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
+=======
+  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+  <style>
+      .pl-items{
+          padding-left: 10px
+      }
+  </style>
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -39,9 +54,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <ul class="navbar-nav ml-auto">
       <!-- Navbar Search -->
       <li class="nav-item">
+<<<<<<< HEAD
         <a class="nav-link" data-widget="navbar-search" href="#" role="button">
           <i class="fas fa-search"></i>
         </a>
+=======
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
         <div class="navbar-search-block">
           <form class="form-inline">
             <div class="input-group input-group-sm">
@@ -69,7 +87,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
+<<<<<<< HEAD
               <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+=======
+              <img src="/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -85,7 +107,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
+<<<<<<< HEAD
               <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+=======
+              <img src="/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -101,7 +127,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
+<<<<<<< HEAD
               <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+=======
+              <img src="/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -162,7 +192,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
+<<<<<<< HEAD
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+=======
+      <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
       <span class="brand-text font-weight-light">Dashboard</span>
     </a>
 
@@ -171,13 +205,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
+<<<<<<< HEAD
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+=======
+          <img src="/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
         </div>
         <div class="info">
           <a href="#" class="d-block">{{ Auth::user()->name }}</a>
         </div>
       </div>
 
+<<<<<<< HEAD
       <!-- SidebarSearch Form -->
       <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">
@@ -189,6 +228,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </div>
         </div>
       </div>
+=======
+
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
@@ -197,52 +239,87 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="#" class="nav-link">
+<<<<<<< HEAD
               <i class="nav-icon fas fa-cog"></i>
               <p>
+=======
+                <i class="icon_size fas fa-cog"></i>
+              <p class="pl-items">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
                 General Settings
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
+<<<<<<< HEAD
               <i class="nav-icon fas fa-user"></i>
               <p>
+=======
+                <i class="icon_size fas fa-user"></i>
+              <p class="pl-items">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
                 About Us
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
+<<<<<<< HEAD
               <i class="nav-icon fas fa-clipboard-list"></i>
               <p>
+=======
+                <i class="icon_size fas fa-list"></i>
+              <p class="pl-items">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
                 Course Category
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
+<<<<<<< HEAD
               <i class="nav-icon fas fa-laptop-code"></i>
               <p>
+=======
+                <i class="icon_size fas fa-book"></i>
+              <p class="pl-items">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
                 Courses
               </p>
             </a>
           </li>
+<<<<<<< HEAD
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-clock"></i>
               <p>
                 Upcoming Class
+=======
+          
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="icon_size fas fa-clock"></i>
+              <p class="pl-items">
+                Upcoming Classes
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
               </p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
+<<<<<<< HEAD
               <i class="nav-icon fas fa-blog"></i>
               <p>
+=======
+                <i class="icon_size fas fa-blog"></i>
+              <p class="pl-items">
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
                 Blog
               </p>
             </a>
           </li>
+<<<<<<< HEAD
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -264,11 +341,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf
             </form>
+=======
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+                
+                <i class="icon_size fas fa-envelope"></i>
+              <p class="pl-items">
+               Message
+              </p>
+            </a>
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
           </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
+<<<<<<< HEAD
      
+=======
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
     </div>
     <!-- /.sidebar -->
   </aside>
@@ -377,7 +467,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
+<<<<<<< HEAD
     <strong>Copyright &copy; 2019-{{ now()->year }} <a href="https://adminlte.io">Yunesh Shrestha</a>.</strong> All rights reserved.
+=======
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
   </footer>
 </div>
 <!-- ./wrapper -->
@@ -385,10 +479,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
+<<<<<<< HEAD
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
+=======
+<script src="/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="/dist/js/adminlte.min.js"></script>
+>>>>>>> c80f8cafc30e99c3521f39016348dadc764b1db3
 </body>
 </html>
